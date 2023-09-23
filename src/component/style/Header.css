@@ -1,0 +1,63 @@
+nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background-color: #ffffff;
+
+
+}
+
+nav ul {
+display: flex;
+list-style-type:none ;
+
+}
+
+
+.icon {
+  display: flex;
+}
+.red-box {
+  background-color: red;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  transform: rotate(20deg);
+  top:14px;
+  left: 47px;
+  z-index: 1;
+  border-bottom: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-radius: 2px;
+}
+
+.black-box {
+    background-color: black;
+  height: 20px;
+  width: 20px;
+transform: rotate(-15deg);
+border-radius: 2px;
+
+}
+h1 {
+  margin-left: 10px;
+}
+
+nav ul li a {
+  color:black;
+  margin-left: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: red;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 3px;
+  color: white;
+  font-size: .8em
+
+}
